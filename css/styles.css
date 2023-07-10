@@ -299,9 +299,9 @@ line-height: var(--category-line-high);
     height: 404px;
     margin-bottom: 30px;
     border-bottom:  1px solid #eee;
+    /* I also added a border on left and right side
+     because in figma seems to have one */
     border-left: 1px solid #eee;
-    /* I also added a side border because in figma seems to have alredy 
-    all the cards a border left, right and bottom */
     border-right: 1px solid #eee;
     background-color: #FFF;
 }
