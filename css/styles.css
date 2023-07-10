@@ -67,7 +67,7 @@ line-height: var(--category-line-high);
     width: 100%;
     height: 80px;
     flex-shrink: 0;
-    border: 1px solid #ECECEC;
+    border-bottom:  1px solid #ECECEC;
     
 } 
 .logo-image{
@@ -191,48 +191,84 @@ line-height: var(--category-line-high);
 }
 .main-container.button-container{
     display: flex;
+    box-sizing: content-box;
+    width: 331px;
+    height: 38px;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    width: 516px;
     flex-shrink: 0;
+    margin-bottom: 50px;
+}
+.button-one,
+.button-two, 
+.button-three, 
+.button-four,
+.button-five{
+    border: 0;
 }
 .button-one{
-    width: 64px;
-    height: 38px;
+    box-sizing: content-box;
+    width: 20px;
     border-radius: 4px;
     background-color: #2196F3;
     cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 6px 22px;
+    
 }
 .button-one:active{
     color: #2196F3;
 }
 .button-two{
-   width: 128px;
-   height: 38px; 
+   box-sizing: content-box;
+   width: 76px;
    border-radius: 4px;
    background-color: #F5F4FA;
    cursor: pointer;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 26px;
+   padding: 6px 22px;
 }
 .button-three{
-   width: 83px; 
-   height: 38px;
+    box-sizing: content-box;
+   width: 39px; 
    border-radius: 4px;
    background-color: #F5F4FA;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 26px;
+   padding: 6px 22px;
 }
 .button-four{
-    width: 96px;
-    height: 38px;
+    box-sizing: content-box;
+    width: 52px;
     border-radius: 4px;
     background-color: #F5F4FA;
     cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 6px 22px;
+    
 }
 .button-five{
-    width: 121px;
-    height: 38px;
+    box-sizing: content-box;
+    width: 77px;
     border-radius: 4px;
     background-color: #F5F4FA;
     cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 6px 22px;
 }
 .cursor{
     cursor: pointer;
@@ -243,12 +279,58 @@ line-height: var(--category-line-high);
     align-items: center;
     justify-content: space-between;
    
+}.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    width: 1176px;
+    margin-top: 50px;
 }
 
 .image-container{
-    display: inline-block;
-    align-items: baseline;
+    display: flex;
+    box-sizing: content-box;
     justify-content: space-between;
+    flex-direction: column;
+    flex-basis: calc((100%-30px)/3);
+    height: 404px;
+    margin-bottom: 30px;
+    border-bottom:  1px solid #eee;
+    border-left: 1px solid #eee;
+    /* I also added a side border because in figma seems to have alredy 
+    all the cards a border left, right and bottom */
+    border-right: 1px solid #eee;
+    background-color: #FFF;
+}
+.web,
+.design,
+.apps,
+.marketing{
+    box-sizing: content-box;
+    width: 370px;
+    height: 294px;
+}
+.aditional-info{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    box-sizing: content-box;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+    margin-left: 24px;
+} .category{
+    display: flex;
+    box-sizing: content-box;
+    text-align: center;
+    margin-left: 24px;
+    line-height: 30px;
 }
 .under-page-container{
     display: flex;
