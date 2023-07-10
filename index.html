@@ -17,7 +17,7 @@
   <body class="general-container">
     <header class="global-container">
       <a class="logo-image" href="./index.html">
-        <img src="images/WebStudio.svg" alt="WebStudio" width="145px" height="31px">
+        <img src="images/WebStudio.svg" alt="WebStudio">
         </a>
         <nav class="main-navigation">
           <ul class="links">
@@ -26,10 +26,10 @@
             <li class="page-three" ><a href="#Contacts">Contacts</a></li>
           </ul>
         </nav>
-        <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="" class="pointer">
-          <img src="/images/finger.svg" alt="pointer">
+        <div class="contacts">
+          <a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a class="contacts-phone" href="tel:+1212-772-4150"> 1 212-772-4150</a>
+        </div>
       </header>
     <main class="pricipal-container">
       <div class="banner">
@@ -38,28 +38,28 @@
       </div>
       <section class="first-section">
         <div class="specific-works">
-        <h2 class="subtitle">ATTENTION TO DETAILS</h2>
+        <h3 class="subtitle">ATTENTION TO DETAILS</h3>
         <p class="explanation">
           We go into all the details and processes of your business to deve
           customized solution.
         </p>
         </div>
         <div class="specific-works">
-        <h2 class="subtitle">PUNCTUALITY</h2>
+        <h3 class="subtitle">PUNCTUALITY</h3>
         <p class="explanation">
           With us, you can feel safe and secure. An important principle of
           company: respect your time and deadlines.
         </p>
         </div>
         <div class="specific-works">
-        <h2 class="subtitle">PLANNING</h2>
+        <h3 class="subtitle">PLANNING</h3>
         <p class="explanation">
           You will be able to observe and participate in every phase of sol
           development and implementation.
         </p>
         </div>
         <div class="specific-works">
-        <h2 class="subtitle">MODERN TECHNOLOGIES</h2>
+        <h3 class="subtitle">MODERN TECHNOLOGIES</h3>
         <p class="explanation">
           We use innovative tools to solve assigned tasks. It's time to sim work
           processes.
@@ -67,9 +67,9 @@
         </div>
       </section>
       <section class="screens">
-        <div>
+      <div class="screens-title">
         <h2 class="second-part">What we do</h2>
-        </div>
+      </div>
         <ul class="screenshots">
           <li>
         <a href="" class="screenshot-one">
@@ -102,11 +102,11 @@
       </section>
       <section class="team">
         <div class="team-title">
-        <h2 class="third-part">Our Team</h2>
+          <h2 class="third-part">Our Team</h2>
         </div>
         <ul class="team-composition">
           <li class="member-one">
-        <figure>
+        <figure class="individual-cards">
           <img
             src="images/productdesigner.jpg"
             alt="team member Christopher Walker"
@@ -114,13 +114,13 @@
             height="260"
           >
           <figcaption class="cards">
-            <h3 class="members">Christopher Walker</h3>
+            <h3 class="member-product-designer">Christopher Walker</h3>
             <p class="member-position">Product Designer</p>
           </figcaption>
         </figure>
         </li>
         <li class="member-two">
-        <figure>
+        <figure class="individual-cards">
           <img
             src="images/Frontenddeveloper.jpg"
             alt="team member Kylie Evans"
@@ -128,13 +128,13 @@
             height="260"
           >
           <figcaption class="cards">
-            <h3 class="members">Kylie Evans</h3>
+            <h3 class="member-frontend-developer">Kylie Evans</h3>
             <p class="member-position">Frontend Developer</p>
           </figcaption>
         </figure>
         </li>
         <li class="member-three">
-        <figure>
+        <figure class="individual-cards">
           <img
             src="images/Marketing.jpg"
             alt="team member Ryan Harris"
@@ -142,13 +142,13 @@
             height="260"
           >
           <figcaption class="cards">
-            <h3 class="members">Ryan Harris</h3>
+            <h3 class="member-marketing">Ryan Harris</h3>
             <p class="member-position">Marketing</p>
           </figcaption>
         </figure>
         </li>
         <li class="member-four">
-        <figure>
+        <figure class="individual-cards">
           <img
             src="images/UiDesigner.jpg"
             alt="team member Tyler Moore"
@@ -156,7 +156,7 @@
             height="260"
           >
           <figcaption class="cards">
-            <h3 class="members">Tyler Moore</h3>
+            <h3 class="member-ui-designer">Tyler Moore</h3>
             <p class="member-position">UI Designer</p>
           </figcaption>
         </figure>
@@ -170,7 +170,6 @@
             <a href="index.html" class="footer-logo">
               <img src="./images/WebStudiofooter.svg" alt="WebStudio" width="145">
             </a>
-        </a>
           </li>
           <li class="submenu">
         <address>695 Park Ave, NY 10065, USA</address>
