@@ -125,10 +125,12 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 1.14em;
 }
+
 .page-one a:focus,
 .page-one a:hover{
     color: #2196F3;
 }
+
 .page-two{
     width: 58px;
     height: 16px;
@@ -803,13 +805,14 @@ width: 206px;
 .fourth-part{
    display: flex;
    flex-direction: row;
+   box-sizing: content-box;
     width: 328px;
     height: 42px;
     font-size: 36px;
-    margin-left: 637px;
-    margin-right: 635px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
-    
+    font-weight: 700;
 }
 .regular-customers{
     flex-direction: column;
