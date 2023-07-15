@@ -25,7 +25,22 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #212121;
 }
+a.icon:hover,
+a.icon:focus{
+    background-color: #2196F3
+    
+}
+ a.footer-icon:hover,
+ a.footer-icon:focus{
+  background-color: #2196F3;
+ }
+
+a.logos svg:hover{
+    background-color: #2196F3;
+}
+
 :root{
     --text-headers-color:#000000;
     --paragraf-text-color:#757575;
@@ -90,6 +105,7 @@ line-height: var(--category-line-high);
     height: 16px;
     margin-left: 93px;
     margin-right: 0;
+    color: #212121;
 }
 
 .links{
@@ -97,6 +113,8 @@ line-height: var(--category-line-high);
     align-items: center;
     justify-content: space-between;
     column-gap: 50px;
+    color: #212121;
+   
 }
 .page-one{
     display: flex;
@@ -107,8 +125,8 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 1.14em;
 }
-.page-one:active,
-.page-one:hover{
+.page-one a:focus,
+.page-one a:hover{
     color: #2196F3;
 }
 .page-two{
@@ -119,8 +137,8 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 1.14em;
 }
-.page-two:hover,
-.page-two:active{
+.page-two a:hover,
+.page-two a:focus{
     color: #2196F3;
 }
 .page-three{
@@ -131,14 +149,10 @@ line-height: var(--category-line-high);
    font-weight: 500;
    line-height: 1.14em;
 }
-.page-three:hover,
-.page-three:focus{
+.page-three a:hover,
+.page-three a:focus{
     color: #2196F3;
 }
-.links:hover,
-.links:focus{
-    color: #2196F3;
-} 
 .contacts{
     display: flex;
     justify-content: flex-start;
@@ -155,7 +169,6 @@ line-height: var(--category-line-high);
 }
 .contacts-email{
     display: flex;
-    justify-self: center;
     box-sizing: content-box;
     margin-right: 40px;
     width: 135px;
@@ -164,11 +177,10 @@ line-height: var(--category-line-high);
     line-height: 16px;
     color: #757575;
     gap: 5px;
-   
 }
 
-.contacts-email:hover,
-.contacts-email:focus{
+.contacts-email a:hover,
+.contacts-email a:focus{
     color: #2196F3;
 }
 .contacts-phone{
@@ -180,10 +192,11 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.28px;
+    gap: 5px;
 
 }
-.contacts-phone:hover,
-.contacts-phone:focus{
+.contacts-phone a:hover,
+.contacts-phone a:focus{
     color: #2196F3;
 }
 .main-container{
@@ -208,11 +221,12 @@ line-height: var(--category-line-high);
 .button-four,
 .button-five{
     border: 0;
+    border-radius: 4px;
+    height: 38px;
 }
 .button-one{
     box-sizing: content-box;
     width: 20px;
-    border-radius: 4px;
     background-color: #2196F3;
     cursor: pointer;
     text-align: center;
@@ -228,7 +242,6 @@ line-height: var(--category-line-high);
 .button-two{
    box-sizing: content-box;
    width: 76px;
-   border-radius: 4px;
    background-color: #F5F4FA;
    cursor: pointer;
    text-align: center;
@@ -240,7 +253,6 @@ line-height: var(--category-line-high);
 .button-three{
     box-sizing: content-box;
    width: 39px; 
-   border-radius: 4px;
    background-color: #F5F4FA;
    text-align: center;
    font-size: 16px;
@@ -251,7 +263,6 @@ line-height: var(--category-line-high);
 .button-four{
     box-sizing: content-box;
     width: 52px;
-    border-radius: 4px;
     background-color: #F5F4FA;
     cursor: pointer;
     text-align: center;
@@ -264,7 +275,6 @@ line-height: var(--category-line-high);
 .button-five{
     box-sizing: content-box;
     width: 77px;
-    border-radius: 4px;
     background-color: #F5F4FA;
     cursor: pointer;
     text-align: center;
@@ -273,8 +283,26 @@ line-height: var(--category-line-high);
     line-height: 26px;
     padding: 6px 22px;
 }
-.cursor{
-    cursor: pointer;
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover,
+.button-five:hover{
+    box-shadow: 0px 2px 1px 0px
+    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
+    rgba(0, 0, 0, 0.12);
+}
+.button-one:focus,
+.button-two:focus,
+.button-three:focus,
+.button-four:focus,
+.button-five:focus{
+    box-shadow: 0px 2px 1px 0px
+    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
+    rgba(0, 0, 0, 0.12);
 }
 .main-container{
     display: flex;
@@ -302,11 +330,18 @@ line-height: var(--category-line-high);
     height: 404px;
     margin-bottom: 30px;
     border-bottom:  1px solid #eee;
-    /* I also added a border on left and right side
-     because in figma seems to have one */
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     background-color: #FFF;
+    flex-grow: 1;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.image-container:hover,
+.image-container:focus{
+    box-shadow: 0px 4px 4px 0px
+    rgba(0, 0, 0, 0.20), 0px 3px 3px 0px 
+    rgba(0, 0, 0, 0.14), 0px 3px 3px 0px 
+    rgba(0, 0, 0, 0.12);
 }
 .web,
 .design,
@@ -381,8 +416,8 @@ line-height: var(--category-line-high);
     margin-bottom: 12px;
     text-decoration: none;
 }
-.contacts-mail:hover,
-.contacts-mail:focus{
+.contacts-mail a:hover,
+.contacts-mail a:focus{
     color: #2196F3;
 }
 .contacts-telephone{
@@ -402,25 +437,27 @@ text-decoration: none;
     color: #2196F3;
 }
 .find-us{ 
-    display: inline;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-    width: 79px;
-    height: 16px;
-    box-sizing: content-box;
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+width: 206px;
 }
 .footer-icons-list{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     box-sizing: content-box;
     width: 206px;
-    height: 44px;
+    height: 80px;
     flex-shrink: 0;
     gap: 10px;
     margin-right: 878px;
-    margin-top: 111px;
+    margin-top: 75px;
 }
 .footer-icons-list .footer-icon{
     display: flex;
@@ -436,6 +473,8 @@ text-decoration: none;
     height: 20px;
     fill: #fff;
 }
+
+
 /* page Studio univoque css code */
 
 .principal-container{
@@ -459,6 +498,12 @@ text-decoration: none;
     height: 600px;
     margin-bottom: 94px;
     background: url("/images/Img_banner.jpg"), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+    background-image: linear-gradient(
+        to right,
+       gray,
+       rgb(108, 96, 96),
+       rgb(198, 146, 146),
+    );
 }
 
 .hero-header{
@@ -598,7 +643,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 648px;
+    height: 708px;
     background-color: #F5F4FA;  
 }
 
@@ -630,8 +675,8 @@ text-decoration: none;
 .individual-cards{
     display: flex;
     width: 270px;
-    height: 428px;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .member-product-designer{
@@ -640,13 +685,10 @@ text-decoration: none;
     flex-direction: row;
     font-size: 16px;
     line-height: 19px;
-    padding-top: 30px;
-    padding-bottom: 10px;
     width: 145px;
     height: 19px;
-    margin: auto;
-    font-weight: 500;
-    margin-top: 0;   
+    margin: 30px auto 10px;
+    font-weight: 500;  
 }
 
 .member-frontend-developer{
@@ -655,13 +697,10 @@ text-decoration: none;
     flex-direction: row;
     font-size: 16px;
     line-height: 19px;
-    padding-top: 30px;
-    padding-bottom: 10px;
     width: 86px;
     height: 19px;
-    margin: auto;
+    margin: 30px auto 10px;
     font-weight: 500;
-    margin-top: 0;
 }
 
 .member-marketing{
@@ -670,13 +709,10 @@ text-decoration: none;
     flex-direction: row;
     font-size: 16px;
     line-height: 19px;
-    padding-top: 30px;
-    padding-bottom: 10px;
     width: 88px;
     height: 19px;
-    margin: auto;
+    margin: 30px auto 10px;
     font-weight: 500;
-    margin-top: 0;
 }
 
 .member-ui-designer{
@@ -685,13 +721,10 @@ text-decoration: none;
     flex-direction: row;
     font-size: 16px;
     line-height: 19px;
-    padding-top: 30px;
-    padding-bottom: 10px;
     width: 91px;
     height: 19px;
-    margin: auto;
+    margin: 30px auto 10px;
     font-weight: 500;
-    margin-top: 0;
 }
 
 .member-position{
@@ -700,16 +733,20 @@ text-decoration: none;
     text-align: center;
     font-size: 16px;
     line-height: 1.18em;
-    padding-bottom: 90px;
-    font-weight: 400;
+    width: 270px;
+    height: 19px;
+    margin-bottom: 16px;
 }
 
 .member-one, .member-two,
 .member-three, .member-four{
     display: flex;
-    box-sizing: border-box;
+    flex-direction: column;
+    box-sizing: content-box;
     justify-content: center;
     align-items: center;
+    width: 270px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px
@@ -719,11 +756,10 @@ text-decoration: none;
 }
 
 .cards{
-    width: 270px;
-    height: 108px;
+    width: 270px; 
+    height: 78px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 .icons-list .icon svg {
@@ -734,13 +770,15 @@ text-decoration: none;
 
 .icons-list {
   display: flex;
+  box-sizing: content-box;
   gap: 10px;
   justify-content: center;
   width: 206px;
   height: 44px;
-  margin-bottom: 124px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .icons-list .icon {
@@ -756,11 +794,6 @@ text-decoration: none;
 .icon{
     display: flex;
     justify-items: center;
-}
-
- .icons-list .icon:hover,
- .icons-list .icon:focus{
-    color: #2196F3;
 }
 .last-section{
     display: flex;
@@ -797,7 +830,6 @@ text-decoration: none;
     justify-content: space-between;
      width: 170px;
     height: 92px;
-
 }
 .logos svg{
     width: 106px;
