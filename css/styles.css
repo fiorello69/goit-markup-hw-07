@@ -132,7 +132,7 @@ line-height: var(--category-line-high);
    line-height: 1.14em;
 }
 .page-three:hover,
-.page-three:active{
+.page-three:focus{
     color: #2196F3;
 }
 .links:hover,
@@ -141,12 +141,12 @@ line-height: var(--category-line-high);
 } 
 .contacts{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     box-sizing: content-box;
     flex-direction: row;
     align-items: center;
     row-gap: 40px;
-    margin-left: 385px;
+    margin-left: 330px;
     width: 503px;
 }
 .ufo{
@@ -159,24 +159,26 @@ line-height: var(--category-line-high);
     box-sizing: content-box;
     margin-right: 40px;
     width: 135px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     color: #757575;
+    gap: 5px;
+   
 }
+
 .contacts-email:hover,
 .contacts-email:focus{
     color: #2196F3;
 }
 .contacts-phone{
-    box-sizing: content-box;
     display: flex;
-    width: 113px;
+    box-sizing: content-box;
+    width: 132px;
     color: #757575;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
-    margin-right: 215px;
     letter-spacing: 0.28px;
 
 }
@@ -339,37 +341,35 @@ line-height: var(--category-line-high);
     width: 100%;
     height: 251px;
     flex-shrink: 0;
+    justify-content: space-between;
+}
+.under-page-menu{
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    width: 232px;
+    height: 72px;
+    margin-left: 215px;
+   
 }
 .footer-logo{
     display: flex;
     width: 145px;
     height: 31px;
-    margin-bottom: 28px;
     margin-top: 60px;
+    margin-bottom: 28px;
 }
 .submenu{
     display: flex;
     flex-direction: column;
-   color: #ffffff; 
+    box-sizing: content-box;
+    color: #ffffff; 
     list-style: none;
-    margin-left: 215px;
 }
-.submenu-adress{
-    display: flex;
-    margin-bottom: 12px;
-    width: 207px;
-    height: 16px;
-    flex-shrink: 0;
-    margin-top: 28px;
-}
-.submenu.submenu-adress,
 .submenu.contacts-mail,
 .submenu.contacts-telephone{
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: 0; 
 }
 .contacts-mail{
     color: #ffffff;
@@ -401,6 +401,41 @@ text-decoration: none;
 .contacts-mail:focus{
     color: #2196F3;
 }
+.find-us{ 
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    width: 79px;
+    height: 16px;
+    box-sizing: content-box;
+}
+.footer-icons-list{
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    width: 206px;
+    height: 44px;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 878px;
+    margin-top: 111px;
+}
+.footer-icons-list .footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #75757552;
+}
+.footer-icons-list .footer-icon svg{
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
 /* page Studio univoque css code */
 
 .principal-container{
@@ -410,6 +445,7 @@ text-decoration: none;
     justify-content: center;
     align-content: center;
 }
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -417,12 +453,14 @@ text-decoration: none;
     align-items: center;
     padding: 2px 4px;
     position: relative;
-   box-sizing: border-box;
-    background-color: #2F303A;
+    box-sizing: border-box;
+    background-color: #c4c4c4;
     width: 100%;
     height: 600px;
     margin-bottom: 94px;
+    background: url("/images/Img_banner.jpg"), lightgray 0px -147.517px / 100% 170.667% no-repeat;
 }
+
 .hero-header{
     display: flex;
     box-sizing: border-box;
@@ -436,6 +474,7 @@ text-decoration: none;
     margin-top: 200px ;
     margin-bottom: 30px;
 }
+
 .booking{
     display: flex;
     box-sizing: content-box;
@@ -452,32 +491,52 @@ text-decoration: none;
     color: #ffffff;
     text-align:justify;
     border-radius: 4px 4px 4px 4px;
-    padding: 10px 20px 10px 19px;
-    
-
+    padding: 10px 20px 10px 19px;  
 }
+
 .booking:hover,
 .booking:focus{
     color: #2196F3;
 }
+
 .first-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1170px;
-    height: 101px;
+    height: 251px;
     flex-shrink: 0; 
     row-gap: 30px;
     margin-left: 215px;
     margin-right: 215px;
     margin-bottom: 94px;
+    align-items: flex-end;
 }
+
+.first-section-icons{
+    display: flex;
+    padding: 25px 100px;
+    justify-content: center;
+    height: 120px;
+    width: 270px;
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.first-section-icons .antenna svg{
+    height: 70px;
+    width: 70px;
+}
+
 .specific-works{
     display: flex;
     flex-direction: column;
     display: flex;
     flex-shrink: 0; 
+    width: 270px;
+    height: 251px;
 }
+
 .subtitle{
     display: flex;
     text-align: left;
@@ -487,7 +546,9 @@ text-decoration: none;
     letter-spacing: 0.42px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin-top: 30px;
 }
+
 .explanation{
     display: flex;
     box-sizing: content-box;
@@ -501,6 +562,7 @@ text-decoration: none;
     flex-grow: 1;
     font-size: 14px;
 }
+
 .screens{
     display: flex;
     box-sizing: content-box;
@@ -520,7 +582,8 @@ text-decoration: none;
     padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-}   
+}  
+
 .screenshots{
     display: inline-block; 
     list-style: none;
@@ -530,6 +593,7 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
 }
+
 .team{
     display: flex;
     flex-direction: column;
@@ -550,6 +614,7 @@ text-decoration: none;
     padding-top: 94px;
     margin: auto;
 }
+
 .team-composition{
     width: 100%;
     display: flex; 
@@ -560,14 +625,15 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
-
 }
+
 .individual-cards{
     display: flex;
     width: 270px;
-    height: 368px;
+    height: 428px;
     flex-direction: column;
 }
+
 .member-product-designer{
     display: flex;
     box-sizing: content-box;
@@ -580,9 +646,9 @@ text-decoration: none;
     height: 19px;
     margin: auto;
     font-weight: 500;
-    margin-top: 0;
-    
+    margin-top: 0;   
 }
+
 .member-frontend-developer{
     display: flex;
     box-sizing: content-box;
@@ -597,6 +663,7 @@ text-decoration: none;
     font-weight: 500;
     margin-top: 0;
 }
+
 .member-marketing{
     display: flex;
     box-sizing: content-box;
@@ -611,6 +678,7 @@ text-decoration: none;
     font-weight: 500;
     margin-top: 0;
 }
+
 .member-ui-designer{
     display: flex;
     box-sizing: content-box;
@@ -624,17 +692,18 @@ text-decoration: none;
     margin: auto;
     font-weight: 500;
     margin-top: 0;
-
 }
+
 .member-position{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 16px;
     line-height: 1.18em;
-    padding-bottom: 30px;
+    padding-bottom: 90px;
     font-weight: 400;
 }
+
 .member-one, .member-two,
 .member-three, .member-four{
     display: flex;
@@ -643,16 +712,97 @@ text-decoration: none;
     align-items: center;
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+    box-shadow: 0px 2px 1px 0px
+    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
+    rgba(0, 0, 0, 0.12);
 }
+
 .cards{
     width: 270px;
     height: 108px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    box-shadow: 0px 2px 1px 0px
-    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
-    rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
-    rgba(0, 0, 0, 0.12);
+}
 
+.icons-list .icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.icons-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 206px;
+  height: 44px;
+  margin-bottom: 124px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icons-list .icon {
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+}
+
+.icon{
+    display: flex;
+    justify-items: center;
+}
+
+ .icons-list .icon:hover,
+ .icons-list .icon:focus{
+    color: #2196F3;
+}
+.last-section{
+    display: flex;
+    width: 100%;
+    height: 372px;
+}
+.fourth-part{
+   display: flex;
+   flex-direction: row;
+    width: 328px;
+    height: 42px;
+    font-size: 36px;
+    margin-left: 637px;
+    margin-right: 635px;
+    margin-bottom: 50px;
+    
+}
+.regular-customers{
+    flex-direction: column;
+    display: flex;
+    width: 1170px;
+    height: 184px;
+    margin: 94px 215px;
+    border-radius: 4px; 
+}
+.logo-customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.logo-customer .logos{
+    display: flex;
+    justify-content: space-between;
+     width: 170px;
+    height: 92px;
+
+}
+.logos svg{
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 }
