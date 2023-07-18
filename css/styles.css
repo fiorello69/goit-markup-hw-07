@@ -28,19 +28,28 @@ a{
     color: #212121;
 }
 a.icon:hover,
-a.icon:focus{
-    background-color: #2196F3
-    
+a.icon:focus {
+    background-color: #2196F3;
 }
+a.icon svg:hover,
+a.icon svg:focus{
+    fill: #fff;
+}
+ 
  a.footer-icon:hover,
  a.footer-icon:focus{
   background-color: #2196F3;
  }
 
 a.logos svg:hover{
-    background-color: #2196F3;
+    fill: #2196F3; 
 }
-
+a.footer-icon{
+    color: #fff;
+}
+.footer-icon{
+    color:rgba(255, 255, 255, 0.10);
+}
 :root{
     --text-headers-color:#000000;
     --paragraf-text-color:#757575;
@@ -495,17 +504,11 @@ width: 206px;
     padding: 2px 4px;
     position: relative;
     box-sizing: border-box;
-    background-color: #c4c4c4;
     width: 100%;
     height: 600px;
-    margin-bottom: 94px;
-    background: url("/images/Img_banner.jpg"), lightgray 0px -147.517px / 100% 170.667% no-repeat;
-    background-image: linear-gradient(
-        to right,
-       gray,
-       rgb(108, 96, 96),
-       rgb(198, 146, 146),
-    );
+    margin-bottom: 94px; 
+    background: linear-gradient(90deg, rgba(101,105,88,1) 0%, rgba(125,19,94,0) 35%, rgba(27,46,50,0.9878545168067226) 100%);
+    background-image: url("/images/Img_banner.jpg");
 }
 
 .hero-header{
@@ -573,6 +576,7 @@ width: 206px;
 .first-section-icons .antenna svg{
     height: 70px;
     width: 70px;
+    fill: #212121;
 }
 
 .specific-works{
@@ -796,7 +800,9 @@ width: 206px;
 .icon{
     display: flex;
     justify-items: center;
+    color: #afb1b8;
 }
+
 .last-section{
     display: flex;
     width: 100%;
