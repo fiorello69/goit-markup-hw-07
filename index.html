@@ -40,7 +40,7 @@
     <main class="pricipal-container">
       <div class="banner">
       <h1 class="hero-header">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-      <button type="button" class="booking">Request our service</button>
+      <button data-modal-open type="button" class="booking">Request our service</button>
       </div>
       <section class="first-section">
         <div class="specific-works">
@@ -380,5 +380,12 @@
           </div>
         </div>
      </footer>
+     <div class="modal is-hiden" data-modal>
+      <div class="modal-content">
+        <button class="close-button" data-modal-close>&#x2715;</button>
+       <!-- modal content -->
+      </div>
+     </div>
+     <script src="./js/modal.js"></script>
   </body>
 </html>

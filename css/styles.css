@@ -27,6 +27,7 @@ a{
     text-decoration: none;
     color: #212121;
 }
+
 a.icon:hover,
 a.icon:focus {
     background-color: #2196F3;
@@ -36,10 +37,6 @@ a.icon svg:focus{
     fill: #fff;
 }
  
- a.footer-icon:hover,
- a.footer-icon:focus{
-  background-color: #2196F3;
- }
 
 a.logos svg:hover{
     fill: #2196F3; 
@@ -133,11 +130,16 @@ line-height: var(--category-line-high);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14em;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .page-one a:focus,
 .page-one a:hover{
     color: #2196F3;
+    
+    
 }
 
 .page-two{
@@ -147,10 +149,14 @@ line-height: var(--category-line-high);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14em;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .page-two a:hover,
 .page-two a:focus{
     color: #2196F3;
+    
 }
 .page-three{
    width: 59px;
@@ -159,6 +165,9 @@ line-height: var(--category-line-high);
    font-size: 14px;
    font-weight: 500;
    line-height: 1.14em;
+   transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .page-three a:hover,
 .page-three a:focus{
@@ -188,6 +197,9 @@ line-height: var(--category-line-high);
     line-height: 16px;
     color: #757575;
     gap: 5px;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .contacts-email a:hover,
@@ -204,6 +216,9 @@ line-height: var(--category-line-high);
     line-height: 16px;
     letter-spacing: 0.28px;
     gap: 5px;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 }
 .contacts-phone a:hover,
@@ -245,6 +260,9 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: , transform;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
     
 }
 .button-one:active{
@@ -260,6 +278,9 @@ line-height: var(--category-line-high);
    font-weight: 500;
    line-height: 26px;
    padding: 6px 22px;
+   transition-property: color, transform;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .button-three{
     box-sizing: content-box;
@@ -270,6 +291,9 @@ line-height: var(--category-line-high);
    font-weight: 500;
    line-height: 26px;
    padding: 6px 22px;
+   transition-property: transform;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .button-four{
     box-sizing: content-box;
@@ -281,6 +305,9 @@ line-height: var(--category-line-high);
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: transform;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
     
 }
 .button-five{
@@ -301,7 +328,7 @@ line-height: var(--category-line-high);
 .button-four:hover,
 .button-five:hover{
     box-shadow: 0px 2px 1px 0px
-    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
+    rgba(0, 0, 0, 0.20), 0px 2px 2px 0px 
     rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
     rgba(0, 0, 0, 0.12);
 }
@@ -311,7 +338,7 @@ line-height: var(--category-line-high);
 .button-four:focus,
 .button-five:focus{
     box-shadow: 0px 2px 1px 0px
-    rgba(0, 0, 0, 0.20), 0px 1px 1px 0px 
+    rgba(0, 0, 0, 0.20), 0px 2px 2px 0px 
     rgba(0, 0, 0, 0.14), 0px 1px 3px 0px 
     rgba(0, 0, 0, 0.12);
 }
@@ -345,15 +372,10 @@ line-height: var(--category-line-high);
     border-right: 1px solid #eee;
     background-color: #FFF;
     flex-grow: 1;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.image-container:hover,
-.image-container:focus{
-    box-shadow: 0px 4px 4px 0px
-    rgba(0, 0, 0, 0.20), 0px 3px 3px 0px 
-    rgba(0, 0, 0, 0.14), 0px 3px 3px 0px 
-    rgba(0, 0, 0, 0.12);
-}
+
+
 .web,
 .design,
 .apps,
@@ -362,6 +384,7 @@ line-height: var(--category-line-high);
     width: 370px;
     height: 294px;
 }
+
 .aditional-info{
     display: flex;
     flex-direction: column;
@@ -483,7 +506,7 @@ width: 206px;
     width: 20px;
     height: 20px;
     fill: #fff;
-}
+ }
 
 
 /* page Studio univoque css code */
@@ -527,26 +550,23 @@ width: 206px;
 
 .booking{
     display: flex;
-    box-sizing: content-box;
-    background-color:#2196F3;
     cursor: pointer;
     font-size: 16px;
     line-height: 30px;
     margin-right: auto;
     margin-left: auto;
-    align-self: center;
-    width: 161px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
     margin-bottom: 200px;
     color: #ffffff;
     text-align:justify;
-    border-radius: 4px 4px 4px 4px;
     padding: 10px 20px 10px 19px;  
 }
 
-.booking:hover,
-.booking:focus{
-    color: #2196F3;
+ .booking:hover,
+ .booking:focus{
+  transform: scale(1.2);
+  background-color: #2196F3;
 }
 
 .first-section{
@@ -847,3 +867,4 @@ width: 206px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
 }
+.
