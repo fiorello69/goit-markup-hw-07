@@ -624,7 +624,7 @@ width: 206px;
     height: 600px;
     margin-bottom: 94px; 
     background: linear-gradient(90deg, rgba(101,105,88,1) 0%, rgba(125,19,94,0) 35%, rgba(27,46,50,0.9878545168067226) 100%);
-    background-image: url(":/images/Img_banner.jpg");
+    background-image: url("images/Img_banner.jpg");
 }
 
 .hero-header{
