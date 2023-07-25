@@ -623,10 +623,7 @@ width: 206px;
     position: relative;
     box-sizing: border-box;
     margin-bottom: 94px; 
-    background-image: url("/images/banner.jpg");
-   
-    
-    
+    background-image: url("../images/banner.jpg"); 
 }
 
 .hero-header{
