@@ -624,11 +624,7 @@ width: 206px;
     box-sizing: border-box;
     margin-bottom: 94px; 
     background: lightgray 0px -147.517px / 100% 170.667% no-repeat;
-<<<<<<< Updated upstream
-    background-image:  url("./images/banner.svg");
-=======
-    background-image:  url(/images/banner.svg);
->>>>>>> Stashed changes
+    background-image:  url("../images/banner.JPG");
 }
 
 .hero-header{
