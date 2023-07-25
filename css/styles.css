@@ -623,7 +623,7 @@ width: 206px;
     position: relative;
     box-sizing: border-box;
     margin-bottom: 94px; 
-    background: url('./images/banner.JPG'), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+    background: url("./images/banner.JPG"), lightgray 0px -147.517px / 100% 170.667% no-repeat;
 }
 
 .hero-header{
