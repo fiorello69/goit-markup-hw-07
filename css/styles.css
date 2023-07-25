@@ -644,6 +644,7 @@ width: 206px;
 .booking{
     display: flex;
     cursor: pointer;
+    outline: none;
     font-size: 16px;
     line-height: 30px;
     margin-right: auto;
@@ -970,6 +971,7 @@ top: 224px;
     border-radius: 4px; 
 }
 .logo-customer{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -977,7 +979,7 @@ top: 224px;
 }
 .logo-customer .logos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
      width: 170px;
     height: 92px;
 }
@@ -997,11 +999,7 @@ top: 224px;
 }
 
 .modal{
-    transition-property: opacity, scale;
-    transition-duration: 350ms;
-    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
     position: fixed;
-    display: none;
     top: 0;
     left: 0;
     width: 100vw;
@@ -1010,6 +1008,7 @@ top: 224px;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.20);
+    transition: 1.5s linear;
 }
 
 .modal-content{
@@ -1020,12 +1019,20 @@ top: 224px;
     height: 581px;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    
+    0px 1px 1px 0px rgba(175, 117, 117, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1);
+    transition: 1.5s linear;
 
 }
 .is-hidden{
     visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1.5s linear;
+}
+.is-hidden .modal-content{
+    transform: scale(0);
+    transition: 1.5s linear;
 }
 
 .close-button{
@@ -1043,8 +1050,7 @@ top: 224px;
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    transition-property: color, background-color, ; 
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .close-button:hover,
 .close-button:focus{
