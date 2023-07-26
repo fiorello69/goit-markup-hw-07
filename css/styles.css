@@ -45,14 +45,12 @@ a svg{
 }
 
 a.icon:hover,
-a.icon:focus {
-    background-color: #2196F3;
-}
 a.icon svg:hover,
-a.icon svg:focus{
+a.icon:focus,
+a.icon svg:focus {
+    background-color: #2196F3;
     fill: #fff;
 }
- 
 
 a.logos svg:hover{
     fill: #2196F3; 
@@ -530,12 +528,9 @@ a[aria-current="page"]{
     transition-property: color, box-shadow;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+}
 
-}
-.contacts-mail a:hover,
-.contacts-mail a:focus{
-    color: #2196F3;
-}
+
 .contacts-telephone{
 color: #ffffff;
 width: 231px;
@@ -623,7 +618,7 @@ width: 206px;
     position: relative;
     box-sizing: border-box;
     margin-bottom: 94px; 
-    background-image: url("../images/banner.jpg"); 
+    background: url("/images/banner.jpg"), lightgray 0px -147.517px / 100% 170.667% no-repeat;  
 }
 
 .hero-header{
@@ -767,10 +762,13 @@ width: 206px;
 .screenshot-two,
 .screenshot-three{
     background: lightgray 50%/cover no-repeat;
+    
+    
 }
 .photos{
     display: flex;
     position: relative; 
+    
 }
 .photos> .label{
 position: absolute;
