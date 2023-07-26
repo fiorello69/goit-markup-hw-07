@@ -385,7 +385,7 @@
                <label class="signup-label" for="newsletter">Subscribe to the newsletter </label>
                <input class="email-input" type="email" name="email" id="newsletter" placeholder="E-mail"/>  
             <button class="subscribe-button" type="submit">Subscribe</button>
-          <img  style="height: 24px; width:24px;" src="./images/icon-send.svg" alt="email sent">
+          <img style="height: 24px; width:24px;" src="./images/icon-send.svg" alt="email sent">
           </form>
         </div>
      </footer>
@@ -393,23 +393,22 @@
       <div class="modal-content">
         <button class="close-button" data-modal-close>&#x2715;</button>
        <span class="form-title">Leave your information and we'll call you back</span>
-       <form class="modal-form-one" action="" autocomplete="on" novalidate>
+       <form class="modal-form-one" action="get" autocomplete="on" novalidate>
         <label for="user" class="username">Name</label>
-        <input class="username-data" type="text" id="user" name="user name" >
-        <img style="height: 18px; width: 18px;" src="/images/user-form-icon.svg" alt="Username">
+        <input class="username-data" type="text" id="user" name="user name" autofocus >
+        <img  class="form-user-icon" style="height: 18px; width: 18px;" src="/images/user-form-icon.svg" alt="Username">
         <label for="phone" class="username-phone">Telephone</label>
         <input type="tel" class="username-phone-data" id="phone" name="phone number"  >
-        <img style="height: 18px; width: 18px;" src="/images/phone-form-icon.svg" alt="Phone number">
+        <img  class="form-phone-icon" style="height: 18px; width: 18px;" src="/images/phone-form-icon.svg" alt="Phone number">
         <label for="email" class="username-email">E-mail</label>
         <input type="text" class="username-email-data" id="email" name="email address" >
-        <img style="height: 18px; width: 18px;" src="/images/email-form-icon.svg" alt="Email Adress">
+        <img  class="form-email-icon" style="height: 18px; width: 18px;" src="/images/email-form-icon.svg" alt="Email Adress">
         <label for="comments" class="username-comments">Comments</label>
-        <input type="text" class="username-comments-data" id="comments" placeholder="Enter the text" name="comments and feedback" />
+        <textarea rows="3" cols="30" type="text" class="username-comments-data" id="comments" placeholder="Enter the text" name="comments and feedback"></textarea>
         </form>
         <img  class="terms-accept" style="width: 16px; height: 15px;" src="/images/ceck-box.svg" alt="Ceck box">
         <span class="form-agree-terms">I agree with the letter and accept the <em> Terms and Conditions</em></span>
         <button class="modal-form-button" type="submit">Send</button>
-       
       </div>
      </div>
      <script src="./js/modal.js"></script>
