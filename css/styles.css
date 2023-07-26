@@ -487,6 +487,7 @@ a[aria-current="page"]{
     height: 251px;
     flex-shrink: 0;
     justify-content: space-between;
+    position:relative
 }
 .under-page-menu{
     display: flex;
@@ -565,13 +566,15 @@ width: 206px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: absolute;
     box-sizing: content-box;
     width: 206px;
     height: 80px;
     flex-shrink: 0;
     gap: 10px;
-    margin-right: 878px;
-    margin-top: 75px;
+    margin-right: 93px;
+    margin-top: 74px;
+    margin-left: 516px;
 }
 .footer-icons-list .footer-icon{
     display: flex;
@@ -666,7 +669,7 @@ width: 206px;
 .first-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1170px;
     height: 251px;
     flex-shrink: 0; 
@@ -679,8 +682,9 @@ width: 206px;
 
 .first-section-icons{
     display: flex;
-    padding: 25px 100px;
+    padding: 25px;
     justify-content: center;
+    align-items: center;
     height: 120px;
     width: 270px;
     border-radius: 4px;
