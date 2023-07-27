@@ -540,9 +540,10 @@ a[aria-current="page"] {
 .under-page-menu {
     display: flex;
     flex-direction: column;
-    width: 232px;
+    width: 243px;
     height: 72px;
-    margin-left: 215px;
+    left: 248px;
+   
     position: absolute;
 }
 
@@ -628,9 +629,8 @@ a[aria-current="page"] {
     flex-shrink: 0;
     gap: 10px;
     margin-right: 93px;
-    margin-top: 74px;
-    margin-left: 516px;
-    position: absolute;
+    top: 74px;
+    left: 516px;
 }
 
 .footer-icons-list .footer-icon {
@@ -663,8 +663,8 @@ a[aria-current="page"] {
     position: absolute;
     width: 570px;
     height: 86px;
-    margin-left: 815px;
-    margin-top: 72px;
+    left: 820px;
+    top: 72px;
 }
 
 .newsletter-subscribe img {
@@ -707,7 +707,7 @@ a[aria-current="page"] {
     display: flex;
     position: absolute;
     top: 36px;
-    right: 0;
+    right: 0px;
     align-items: center;
     width: 200px;
     height: 50px;
@@ -809,7 +809,6 @@ a[aria-current="page"] {
 
 .first-section-icons {
     display: flex;
-    padding: 25px;
     justify-content: center;
     align-items: center;
     height: 120px;
@@ -1104,18 +1103,19 @@ a.icon:focus {
     display: flex;
     width: 100%;
     height: 372px;
+    position: relative;
 }
 
 .fourth-part {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    position: absolute;
     box-sizing: content-box;
     width: 328px;
     height: 42px;
     font-size: 36px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    top: 0;
+    left: 422px;
     font-weight: 700;
 }
 
@@ -1124,30 +1124,43 @@ a.icon:focus {
     display: flex;
     width: 1170px;
     height: 184px;
-    margin: 94px 215px;
     border-radius: 4px;
+    position: absolute;
+    top: 94px;
+    right: 215px;
+    
+    
 }
 
 .logo-customer {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    top: 92px;
+   right: 0;
+    column-gap: 30px;
+   
+    
+
+    
 }
 
 .logo-customer .logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 170px;
     height: 92px;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 4px;
+border: 1px solid #AFB1B8;
 }
 
 .logos svg {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
     transition-property: fill;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
