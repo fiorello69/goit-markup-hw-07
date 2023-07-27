@@ -117,6 +117,7 @@ a.footer-icon {
     height: 80px;
     flex-shrink: 0;
     border-bottom: 1px solid #ECECEC;
+    position: relative;
 
 }
 
@@ -234,17 +235,31 @@ a[aria-current="page"] {
     line-height: 16px;
     color: #757575;
     gap: 5px;
+    position: relative;
 }
-
-.contacts-email:hover img,
-.contacts-email:focus img {
+.contacts-email-header-icon{
+    display: flex;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: 4px;
+    right: 140px;
+    
+}
+.contacts-email:hover,
+.contacts-email a:hover
+ {
     fill: #2196F3;
-}
-
-.contacts-email a:hover,
-.contacts-email a:focus {
     color: #2196F3;
 }
+.contacts-email:focus,
+.contacts-email a:focus{
+
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+
 
 .contacts-phone {
     display: flex;
@@ -261,10 +276,25 @@ a[aria-current="page"] {
     transition-duration: 250ms;
 
 }
-
-.contacts-phone a:hover,
-.contacts-phone a:focus {
+.contacts-phone-header-icon{
+     display: flex;
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    top: 37px;
+    right: 331px;
+}
+.contacts-phone:hover,
+.contacts-phone a:hover
+ {
     color: #2196F3;
+    fill: #2196F3;
+}
+.contacts-phone:focus,
+.contacts-phone a:focus
+ {
+    color: #2196F3;
+    fill: #2196F3;
 }
 
 .main-container {
@@ -1268,14 +1298,22 @@ a[aria-current="page"] {
     padding-left: 30px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+    display: inline-block;
 }
-
-.username-data,
-.username-phone-data,
-.username-email-data:active {
+.username-data:hover + svg,
+.username-data:hover {
     fill: #2196F3;
 }
 
+.username-phone-data:hover +svg,
+.username-phone-data:hover{
+    fill: #2196F3;
+}
+
+.username-email-data:hover + svg,
+.username-email-data:hover{
+    fill: #2196F3;
+}
 .username-comments-data {
     top: 297px;
     left: 40px;
