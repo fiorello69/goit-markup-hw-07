@@ -228,7 +228,7 @@ a[aria-current="page"] {
     width: 16px;
     height: 12px;
     position: absolute;
-    top: 4px;
+    top: 3px;
     right: 140px;
 }
 
@@ -542,8 +542,7 @@ a[aria-current="page"] {
     flex-direction: column;
     width: 243px;
     height: 72px;
-    left: 248px;
-   
+    left: 215px;
     position: absolute;
 }
 
@@ -707,7 +706,7 @@ a[aria-current="page"] {
     display: flex;
     position: absolute;
     top: 36px;
-    right: 0px;
+    right: -7px;
     align-items: center;
     width: 200px;
     height: 50px;
@@ -1072,6 +1071,7 @@ a[aria-current="page"] {
     justify-items: center;
     color: #afb1b8;
 }
+
 a.icon:hover {
     background-color: #007bff;
 }
@@ -1084,6 +1084,7 @@ a.icon:hover {
     color: #fff;
     text-decoration: none;
 }
+
 a.icon:focus {
     background-color: #007bff;
 }
@@ -1108,7 +1109,7 @@ a.icon:focus {
 
 .fourth-part {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     position: absolute;
     box-sizing: content-box;
     width: 328px;
@@ -1128,8 +1129,8 @@ a.icon:focus {
     position: absolute;
     top: 94px;
     right: 215px;
-    
-    
+
+
 }
 
 .logo-customer {
@@ -1138,12 +1139,12 @@ a.icon:focus {
     justify-content: center;
     align-items: center;
     top: 92px;
-   right: 0;
+    left: -1px;px;
     column-gap: 30px;
-   
-    
 
-    
+
+
+
 }
 
 .logo-customer .logos {
@@ -1153,7 +1154,7 @@ a.icon:focus {
     height: 92px;
     align-items: center;
     border-radius: 4px;
-border: 1px solid #AFB1B8;
+    border: 1px solid #AFB1B8;
 }
 
 .logos svg {
