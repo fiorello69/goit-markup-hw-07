@@ -1366,10 +1366,17 @@ a.icon:focus {
     letter-spacing: 0.42px;
 
 }
-.not-cecked-icon{
+.custom-checkbox{
     display: flex;
+    position:relative;
+    align-items: center; 
+} 
+.custom-checkbox .not-cecked-icon{
+   pointer-events: none; 
+}
+.not-cecked-icon{
     position: absolute;
-    top: 374px;
+    top: 30px;
     left: 14px;
     opacity: 0;  
 } 
@@ -1377,33 +1384,30 @@ a.icon:focus {
 input[type="checkbox"]:checked + .not-cecked-icon {
     opacity: 1;
     background-color: #2196F3;
-}
- svg.not-cecked-icon:focus {
     fill: #fff;
-} 
+}
 
 input[type="checkbox"] {
     display: flex;
     position: absolute;
-    top: 372px;
+    top: 27px;
     left: 12px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 20px;
     height: 20px;
-    border: 2px solid #000;
+    border: 2px solid #2196F3;
     border-radius: 5px;
-
 }
 
 
 input[type="checkbox"]::before {
     content: "";
     display: block;
-    width: 16px;
-    height: 15px;
-    margin: 2px;
+    width: 20px;
+    height: 18px;
+    
     background-color: #fff;
     border-radius: 3px;
     content-visibility: hidden;
@@ -1414,6 +1418,9 @@ input[type="checkbox"]:checked::before {
 
     background-color: #2196F3;
 }
+
+
+
 
 em {
     color: #2196f3;
