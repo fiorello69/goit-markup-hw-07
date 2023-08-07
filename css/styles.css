@@ -398,20 +398,21 @@ a.footer-icon {
 .under-page-container {
     display: flex;
     background-color: #2f303a;
-    width: 100%;
-    height: 251px;
-    flex-shrink: 0;
+    width: 480px;
+    height: 604px;
     justify-content: space-between;
     position: relative;
+    margin-top: 275px;
 }
 
 .under-page-menu {
     display: flex;
     flex-direction: column;
     width: 243px;
-    height: 72px;
+    height: 128px;
     left: 215px;
     position: absolute;
+    left: 105px;
 }
 
 .footer-logo {
@@ -420,6 +421,7 @@ a.footer-icon {
     height: 31px;
     margin-top: 60px;
     margin-bottom: 28px;
+    align-self: center;
 }
 
 .submenu {
@@ -428,6 +430,9 @@ a.footer-icon {
     box-sizing: content-box;
     color: #ffffff;
     list-style: none;
+}
+.submenu .adress{
+    text-align: center;
 }
 
 .submenu.contacts-mail,
@@ -441,6 +446,7 @@ a.footer-icon {
     color: #ffffff;
     width: 231px;
     height: 16px;
+    text-align: center;
     line-height: 1.14em;
     font-size: 14px;
     margin-top: 12px;
@@ -455,6 +461,7 @@ a.footer-icon {
     color: #ffffff;
     width: 231px;
     height: 16px;
+    text-align: center;
     line-height: 1.14em;
     font-size: 14px;
     text-decoration: none;
@@ -596,6 +603,7 @@ a.footer-icon {
 
 .principal-container {
     display: flex;
+    width: 480px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -933,49 +941,54 @@ a.icon:focus {
 
 .last-section {
     display: flex;
-    width: 100%;
-    height: 372px;
+    width: 480px;
+    height: 399px;
     position: relative;
 }
 
 .fourth-part {
     display: flex;
+    align-self: center;
     flex-direction: row;
     position: absolute;
     box-sizing: content-box;
-    width: 328px;
-    height: 42px;
-    font-size: 36px;
-    top: 0;
-    left: 422px;
+    width: 314px;
+    height: 33px;
+    font-size: 28px;
+    top: 127px;
     font-weight: 700;
+    left: 300px;
 }
 
 .regular-customers {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-    width: 1170px;
-    height: 184px;
+    width: 450px;
+    height: 399px;
     border-radius: 4px;
-    position: absolute;
+    position: relative;
     top: 94px;
     right: 215px;
 }
 
 .logo-customer {
     display: flex;
+    width: 450px;
     position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    top: 92px;
-    left: -1px;
+    row-gap: 30px;
     column-gap: 30px;
+    top: 183px;
+    left: 215px;
 }
 
 .logo-customer .logos {
     display: flex;
     justify-content: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     align-items: center;
     border-radius: 4px;
@@ -1725,12 +1738,77 @@ em {
     }
     .cards p{
         text-align: center;
+    } 
+    .last-section{
+        display: flex;
+        position: relative;
+        width:738px;
+        height: 277px;
+        flex-shrink: 0;
     }
+    .regular-customers {
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    width: 738px;
+    height: 277px;
+    border-radius: 4px; 
+}
+.fourth-part {
+    display: flex;
+    position: absolute;
+    box-sizing: content-box;
+    width: 314px;
+    height: 33px;
+    font-size: 28px;
+    top: -40px;
+    left: 465px;
+    font-weight: 700;   
+}
+
+.logo-customer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 738px;
+    align-items: center;
+    top: 30px;
+    column-gap: 30px;
+}
+
+.logo-customer .logos {
+    display: flex;
+    justify-content: center;
+    width: 226px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.logos svg {
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+} 
+.under-page-container {
+    display: flex;
+    background-color: #2f303a;
+    width: 768px;
+    height: 464px;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 120px;
+
+}
 }
 
 /* desktop style */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
     .general-container {
         width: 1600px;
         margin: 0 auto;
@@ -2184,30 +2262,273 @@ em {
         justify-items: center;
         color: #afb1b8;
     }
+    .last-section {
+    display: flex;
+    width: 100%;
+    height: 372px;
+    position: relative;
+}
+
+.fourth-part {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    box-sizing: content-box;
+    width: 328px;
+    height: 42px;
+    font-size: 36px;
+    top: 0;
+    left: 422px;
+    font-weight: 700;
+}
+
+.regular-customers {
+    flex-direction: column;
+    display: flex;
+    width: 1170px;
+    height: 184px;
+    border-radius: 4px;
+    position: absolute;
+    top: 94px;
+    right: 215px;
+}
+
+.logo-customer {
+    display: flex;
+    width:1170px ;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 92px;
+    left: -1px;
+    column-gap: 30px;
+}
+
+.logo-customer .logos {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.logos svg {
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.logos svg:hover,
+.logos svg:focus {
+    fill: #2196f3;
+}
+.under-page-container {
+    display: flex;
+    background-color: #2f303a;
+    width: 1600px;
+    height: 251px;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+}
+
+.under-page-menu {
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 72px;
+    left: 215px;
+    position: relative;
+}
+
+.footer-logo {
+    display: flex;
+    width: 145px;
+    height: 31px;
+    margin-top: 60px;
+    margin-bottom: 28px;
+    align-self: flex-start;
     
-    a.icon:hover {
-        background-color: #007bff;
-    }
-    
-    .icon:hover .svg-icon {
-        fill: #fff;
-    }
-    
-    .icon:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    a.icon:focus {
-        background-color: #007bff;
-    }
-    
-    .icon:focus .svg-icon {
-        fill: #fff;
-    }
-    
-    .icon:focus {
-        color: #fff;
-        text-decoration: none;
-    }
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    color: #ffffff;
+    list-style: none;
+}
+
+.submenu .adress{
+    text-align: left;
+}
+.submenu.contacts-mail,
+.submenu.contacts-telephone {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.contacts-mail {
+    color: #ffffff;
+    width: 231px;
+    height: 16px;
+    text-align: start;
+    line-height: 1.14em;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    transition-property: color, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.contacts-telephone {
+    color: #ffffff;
+    width: 231px;
+    height: 16px;
+    text-align: start;
+    line-height: 1.14em;
+    font-size: 14px;
+    text-decoration: none;
+    transition-property: color, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.contacts-telephone:hover,
+.contacts-telephone:focus {
+    color: #2196f3;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+    color: #2196f3;
+}
+
+.find-us {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    width: 206px;
+}
+
+.footer-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    box-sizing: content-box;
+    width: 206px;
+    height: 80px;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 93px;
+    top: 74px;
+    left: 516px;
+}
+
+.footer-icons-list .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #75757552;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.footer-icons-list .footer-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #2196f3;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 570px;
+    height: 86px;
+    left: 820px;
+    top: 72px;
+}
+
+.newsletter-subscribe img {
+    display: flex;
+    position: absolute;
+    top: 49px;
+    right: 14px;
+    z-index: 1;
+}
+
+.signup-label {
+    width: 229px;
+    height: 16px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.email-input {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.email-input[placeholder] {
+    padding: 15px 16px;
+}
+
+.subscribe-button {
+    display: flex;
+    position: absolute;
+    top: 36px;
+    right: -7px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    padding: 10px 77px 10px 43px;
+}
+
 }
