@@ -408,11 +408,11 @@ a.footer-icon {
 .under-page-menu {
     display: flex;
     flex-direction: column;
-    width: 243px;
+    width: 232px;
     height: 128px;
     left: 215px;
     position: absolute;
-    left: 105px;
+    left: 83px;
 }
 
 .footer-logo {
@@ -485,6 +485,7 @@ a.footer-icon {
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
@@ -503,8 +504,8 @@ a.footer-icon {
     flex-shrink: 0;
     gap: 10px;
     margin-right: 93px;
-    top: 74px;
-    left: 516px;
+    top: 246px;
+    left: 116px;
 }
 
 .footer-icons-list .footer-icon {
@@ -535,23 +536,23 @@ a.footer-icon {
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 570px;
-    height: 86px;
-    left: 820px;
-    top: 72px;
+    width: 450px;
+    height: 156px;
+    top: 380px;
 }
 
 .newsletter-subscribe img {
     display: flex;
     position: absolute;
-    top: 49px;
-    right: 14px;
+    top: 117px;
+    right: 155px;
     z-index: 1;
 }
 
 .signup-label {
     width: 229px;
     height: 16px;
+    align-self: center;
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -568,9 +569,10 @@ a.footer-icon {
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(33, 150, 243, 0);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    width: 320px;
+    width: 450px;
     height: 50px;
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 .email-input[placeholder] {
@@ -580,8 +582,8 @@ a.footer-icon {
 .subscribe-button {
     display: flex;
     position: absolute;
-    top: 36px;
-    right: -7px;
+    top: 105px;
+    right: 127px;
     align-items: center;
     width: 200px;
     height: 50px;
@@ -750,7 +752,8 @@ a.footer-icon {
 .team {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    align-content: center;
+    width: 480px;
     height: 2578px;
     background-color: #f5f4fa;
 }
@@ -968,7 +971,7 @@ a.icon:focus {
     border-radius: 4px;
     position: relative;
     top: 94px;
-    right: 215px;
+    right: 200px;
 }
 
 .logo-customer {
@@ -1011,10 +1014,10 @@ a.icon:focus {
 
 .modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: 93px;
+    left: 15px;
+    width: 450px;
+    height: 609px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1026,8 +1029,8 @@ a.icon:focus {
     margin: 0 auto;
     position: relative;
     background-color: #fff;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     border-radius: 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(175, 117, 117, 0.14),
@@ -1041,8 +1044,8 @@ a.icon:focus {
     position: absolute;
     top: 40px;
     right: 40px;
-    width: 448px;
-    height: 23px;
+    width: 370px;
+    height: 46px;
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -1058,9 +1061,9 @@ a.icon:focus {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 75px;
+    top: 120px;
     right: 40px;
-    width: 448px;
+    width: 370px;
     height: 342px;
 }
 
@@ -1147,7 +1150,7 @@ a.icon:focus {
 .username-data,
 .username-phone-data,
 .username-email-data {
-    width: 448px;
+    width: 370px;
     height: 40px;
     margin-bottom: 14px;
     padding-left: 30px;
@@ -1159,12 +1162,13 @@ a.icon:focus {
 .username-data:focus + svg,
 .username-data:focus {
     fill: #2196f3;
+
 }
 
 .username-phone-data:focus + svg,
 .username-phone-data:focus {
     fill: #2196f3;
-}
+} 
 
 .username-email-data:focus + svg,
 .username-email-data:focus {
@@ -1174,7 +1178,7 @@ a.icon:focus {
 .username-comments-data {
     top: 297px;
     left: 40px;
-    width: 448px;
+    width: 370px;
     height: 120px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1190,18 +1194,15 @@ a.icon:focus {
 .form-agree-terms {
     display: flex;
     position: absolute;
-    right: 5px;
-    bottom: -50px;
-    width: 396px;
-    height: 24px;
+    right: 7px;
+    bottom: -30px;
+    width: 336px;
+    height: 14px;
     color: #757575;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.42px;
-
 }
 
 .custom-checkbox {
@@ -1216,8 +1217,8 @@ a.icon:focus {
 
 .not-cecked-icon {
     position: absolute;
-    top: 30px;
-    left: 14px;
+    top: 13px;
+    left: 2px;
     opacity: 0;
 }
 
@@ -1230,8 +1231,8 @@ input[type="checkbox"]:checked+.not-cecked-icon {
 input[type="checkbox"] {
     display: flex;
     position: absolute;
-    top: 27px;
-    left: 12px;
+    top: 10px;
+    left: 0;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1262,17 +1263,17 @@ em {
     color: #2196f3;
     text-decoration: underline;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 14px;
     letter-spacing: 0.42px;
 }
 
 .modal-form-button {
     display: flex;
     position: absolute;
-    right: 164px;
+    right: 125px;
     bottom: 40px;
     width: 200px;
     height: 50px;
@@ -1744,7 +1745,7 @@ em {
         position: relative;
         width:738px;
         height: 277px;
-        flex-shrink: 0;
+    
     }
     .regular-customers {
     flex-direction: column;
@@ -1753,6 +1754,7 @@ em {
     width: 738px;
     height: 277px;
     border-radius: 4px; 
+    right: 200px;
 }
 .fourth-part {
     display: flex;
@@ -1802,8 +1804,129 @@ em {
     justify-content: space-between;
     position: relative;
     margin-top: 120px;
+}
+.find-us {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    width: 206px;
+}
+
+.footer-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    box-sizing: content-box;
+    width: 206px;
+    height: 80px;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 93px;
+    top: 72px;
+    left: 473px;
+}
+
+.footer-icons-list .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #75757552;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.footer-icons-list .footer-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.newsletter-subscribe {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 450px;
+    height: 156px;
+    left: 166px;
+    top: 250px;
+}
+
+.newsletter-subscribe img {
+    display: flex;
+    position: absolute;
+    top: 117px;
+    right: 155px;
+    z-index: 1;
+}
+
+.signup-label {
+    width: 229px;
+    height: 16px;
+    align-self: center;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.email-input {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 0;
 
 }
+
+.email-input[placeholder] {
+    padding: 15px 16px;
+}
+
+.subscribe-button {
+    display: flex;
+    position: absolute;
+    top: 105px;
+    right: 127px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    padding: 10px 77px 10px 43px;
+} 
+.modal {
+    top: 208px;
+    left: 159px;
+}
+
 }
 
 /* desktop style */
@@ -2484,6 +2607,7 @@ em {
 .signup-label {
     width: 229px;
     height: 16px;
+    align-self: self-start;
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -2492,6 +2616,7 @@ em {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-left: 17px;
 }
 
 .email-input {
@@ -2529,6 +2654,326 @@ em {
     line-height: 30px;
     letter-spacing: 0.96px;
     padding: 10px 77px 10px 43px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 1.5s linear;
+}
+
+.modal-content {
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(175, 117, 117, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1);
+    transition: 1.5s linear;
+}
+
+.form-title {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 448px;
+    height: 23px;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+}
+
+.modal-form-one {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    width: 448px;
+    height: 342px;
+}
+
+.modal-form-one input:hover,
+.modal-form-one input:focus {
+
+    border: 1px solid #2196F3;
+
+}
+
+.username {
+    width: 33px;
+    height: 14px;
+    margin-bottom: 4px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.form-user-icon {
+    display: flex;
+    position: absolute;
+    top: 27px;
+    left: 5px;
+}
+
+.username-phone {
+    width: 58px;
+    height: 14px;
+    margin-bottom: 4px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.form-phone-icon {
+    display: flex;
+    position: absolute;
+    top: 98px;
+    left: 5px;
+}
+
+.username-email {
+    width: 41px;
+    height: 14px;
+    margin-bottom: 4px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.form-email-icon {
+    display: flex;
+    position: absolute;
+    top: 166px;
+    left: 5px;
+}
+
+.username-comments {
+    width: 60px;
+    height: 14px;
+    margin-bottom: 4px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.username-data,
+.username-phone-data,
+.username-email-data {
+    width: 448px;
+    height: 40px;
+    margin-bottom: 14px;
+    padding-left: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    display: inline-block;
+}
+
+.username-data:focus + svg,
+.username-data:focus {
+    fill: #2196f3;
+}
+
+.username-phone-data:focus + svg,
+.username-phone-data:focus {
+    fill: #2196f3;
+}
+
+.username-email-data:focus + svg,
+.username-email-data:focus {
+    fill: #2196f3;
+}
+
+.username-comments-data {
+    top: 297px;
+    left: 40px;
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    padding: 12px 16px;
+    resize: none;
+}
+
+.modal-form-one textarea:focus {
+
+    border: 1px solid #2196F3;
+}
+
+.form-agree-terms {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: -50px;
+    width: 396px;
+    height: 24px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+
+}
+
+.custom-checkbox {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.custom-checkbox .not-cecked-icon {
+    pointer-events: none;
+}
+
+.not-cecked-icon {
+    position: absolute;
+    top: 30px;
+    left: 14px;
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked+.not-cecked-icon {
+    opacity: 1;
+    background-color: #2196F3;
+    fill: #fff;
+}
+
+input[type="checkbox"] {
+    display: flex;
+    position: absolute;
+    top: 27px;
+    left: 12px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+}
+
+
+input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+
+    background-color: #fff;
+    border-radius: 3px;
+    content-visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+
+    background-color: #2196F3;
+}
+
+em {
+    color: #2196f3;
+    text-decoration: underline;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.modal-form-button {
+    display: flex;
+    position: absolute;
+    right: 164px;
+    bottom: 40px;
+    width: 200px;
+    height: 50px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1.5s linear;
+}
+
+.is-hidden .modal-content {
+    transform: scale(0);
+    transition: 1.5s linear;
+}
+
+.close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #212121;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid darkgrey;
+}
+
+.close-button svg {
+
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+}
+
+.close-button:hover,
+.close-button:focus {
+    background-color: #fff;
+    color: #2196f3;
 }
 
 }
