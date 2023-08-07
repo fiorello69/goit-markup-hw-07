@@ -138,20 +138,25 @@ a.footer-icon {
 .menu-button.js-open-menu {
     display: flex;
     position: absolute;
+    width: 40px;
+    height: 40px;
     top: 10px;
     right: 15px;
     cursor: pointer;
     background-color: #fff;
     border: none;
 }
-.js-open-menu:hover {
-    color: #2196F3;
-    
+
+.menu-button.js-open-menu:hover svg  {
+    fill: #2196F3;
 }
 
 .menu-button.js-close-menu {
     display: flex;
     position: absolute;
+    border: none;
+    width: 40px;
+    height: 40px;
     top: 10px;
     right: 15px;
     cursor: pointer;
@@ -159,7 +164,10 @@ a.footer-icon {
 }
 
 .js-menu-container {
-    display: none;
+    display: none
+}
+.menu-button.js-close-menu:hover svg {
+    fill: #2196F3;
 }
 
 .js-menu-container.is-open {
@@ -230,6 +238,11 @@ a.footer-icon {
 .backdrop-links li a:hover,
 .backdrop-contacts-phone a:hover,
 .backdrop-contacts-email a:hover {
+    color: #2196F3;
+}
+.backdrop-links li a:focus,
+.backdrop-contacts-phone a:focus,
+.backdrop-contacts-email a:focus {
     color: #2196F3;
 }
 .backdrop-contacts-phone {
@@ -1540,7 +1553,9 @@ em {
         left: 15px;
 
     }
-
+    .menu-button.js-open-menu{
+        display: none;
+    }
     .js-open-menu {
         display: none;
     }
