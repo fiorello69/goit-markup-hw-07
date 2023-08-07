@@ -25,8 +25,8 @@
       <a class="logo-image" href="./index.html">
         <img src="images/WebStudio.svg" alt="WebStudio" />
       </a>
-      <button class="js-open-menu" type="menu" js-open-menu>
-        <img src="./images/menu-mbile.svg" alt="burger-menu">
+      <button class="menu-button js-open-menu">
+        <img src="./images/menu-mobile.png" alt="burger-menu">
       </button>
       <nav class="main-navigation">
         <ul class="links">
@@ -644,10 +644,67 @@
         <button class="modal-form-button" type="submit">Send</button>
       </div>
     </div>
-    <div class="js-menu-container" >
-      <button class="js-close-menu" type="button"></button>
-
+    <div class="js-menu-container">
+      <button class="menu-button js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+         <nav class="backdrop-navigation">
+        <ul class="backdrop-links">
+          <li class="backdrop-page-one">
+            <a href="./index.html" aria-current="page">Studio</a>
+          </li>
+          <li class="backdrop-page-two"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="backdrop-page-three"><a href="#Contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="backdrop-contacts-phone">
+        <a href="tel:+1212-772-4150"> 1 212-772-4150</a>
       </div>
+      <div class="backdrop-contacts-email">
+          <a href="mailto:info@devstudio.com">@devstudio.com</a>
+      </div>
+      <ul class="backdrop-social">
+       <li class="backdrop-social-istagram">
+        <a
+        href="https://www.instagram.com/"
+        aria-label="Instagram"
+        >Instagram</a>
+       </li>
+       <li class="backdrop-social-twitter">
+         <a
+        href="https://www.twitter.com/"
+        aria-label="Twitter"
+        >Twitter</a>
+       </li>
+       <li class="backdrop-social-facebook">
+       <a
+        href="https://www.facebook.com/"
+        aria-label="Facebook"
+        >Facebook</a>
+       </li>
+       <li class="backdrop-social-twitter">
+        <a
+        href="https://www.linkedin.com/"
+        aria-label="Linkedin"
+      >Linkedin</a>
+       </li>
+      </ul>
+    </div>
+       
+     
+  
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
