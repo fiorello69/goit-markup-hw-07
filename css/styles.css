@@ -294,13 +294,30 @@ a.footer-icon {
     display: flex;
     flex-direction: row;
     position: absolute;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 357px;
     height: 22px;
     left: 33px;
     bottom: 48px;
 
 }
+.backdrop-social li {
+    position: relative;
+    padding: 0 10px;
+  }
+  .backdrop-social a {
+    text-decoration: none;
+    color: #000; 
+  }
+  .backdrop-social li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    height: 20px;
+    border-right: 2px solid #000; 
+  }
 
 .backdrop-social-istagram {
     display: flex;
