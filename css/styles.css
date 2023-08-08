@@ -483,7 +483,7 @@ a.footer-icon {
     column-gap: 30px;
     flex-wrap: wrap;
     box-sizing: content-box;
-    width: 1176px;
+    width: 480px;
     margin-top: 50px;
 }
 
@@ -492,7 +492,7 @@ a.footer-icon {
     box-sizing: content-box;
     justify-content: space-between;
     flex-direction: column;
-    flex-basis: calc((100%-30px) / 3);
+    width: 450px;
     height: 404px;
     margin-bottom: 30px;
     border-bottom: 1px solid #eee;
@@ -511,9 +511,11 @@ a.footer-icon {
 }
 
 .overlay {
+    display: flex;
+    align-items: center;
     position: absolute;
     left: auto;
-    width: 370px;
+    width: 450px;
     height: 298px;
     background: rgba(33, 150, 243, 0.9);
     transition-duration: 250ms;
@@ -3275,7 +3277,7 @@ em {
 .apps,
 .marketing {
     width: 354px;
-    height: auto;
+    height: 294px;
 }
 
 .overlay {
@@ -3285,7 +3287,7 @@ em {
     flex-wrap: wrap;
     left: auto;
     width: 370px;
-    height: 290px;
+    height: 298px;
     background: rgba(33, 150, 243, 0.9);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
