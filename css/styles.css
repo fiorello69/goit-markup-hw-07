@@ -2069,11 +2069,16 @@ em {
         transition-duration: 250ms;
     }
 
-    .footer-icons-list .footer-icon svg {
-        width: 20px;
-        height: 20px;
-        fill: #fff;
-    }
+   .footer-icons-list .footer-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #2196f3;
+}
 
     .newsletter-subscribe {
         display: flex;
