@@ -3393,6 +3393,7 @@ em {
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 331px;
@@ -3547,6 +3548,7 @@ em {
 .button-container {
     display: flex;
     flex-direction: column;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     box-sizing: content-box;
