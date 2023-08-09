@@ -2060,7 +2060,7 @@ em {
         height: 464px;
         justify-content: space-between;
         position: relative;
-        margin-top: 120px;
+        margin-top: 60px;
     }
 
     .find-us {
@@ -3547,7 +3547,7 @@ em {
         height: 464px;
         justify-content: space-between;
         position: relative;
-        margin-top: 120px;
+        margin-top: 0;
     }
 
 
@@ -3992,7 +3992,7 @@ em {
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        left: -16px;
+        left: 0;
     }
 
     .email-input {
