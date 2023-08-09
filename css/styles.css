@@ -2726,7 +2726,7 @@ em {
         fill: #2196f3;
     }
 
-    .under-page-container {
+    .under-page-container-studio{
         display: flex;
         background-color: #2f303a;
         width: 1600px;
