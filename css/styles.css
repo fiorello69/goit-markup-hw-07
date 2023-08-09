@@ -370,6 +370,7 @@ a.footer-icon {
     justify-content: space-between;
     padding-top: 94px;
     padding-bottom: 94px;
+    margin-bottom: 120px;
 }
 .button-container {
     display: flex;
@@ -491,8 +492,6 @@ a.footer-icon {
         0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-
-
 .content-container {
     display: flex;
     justify-content: center;
@@ -500,7 +499,7 @@ a.footer-icon {
     column-gap: 30px;
     flex-wrap: wrap;
     box-sizing: content-box;
-    width: 480px;
+    width: 450px;
     margin-top: 50px;
     margin-bottom: -185px;
 }
@@ -535,7 +534,6 @@ a.footer-icon {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 15px;
     right: auto;
     width: 450px;
     height: 298px;
@@ -625,8 +623,9 @@ a.footer-icon {
     height: 604px;
     justify-content: space-between;
     position: relative;
-    margin-top: 250px;
+    margin-top: 0;
 }
+
 
 .under-page-menu {
     display: flex;
@@ -1173,7 +1172,7 @@ a.icon:focus {
 .last-section {
     display: flex;
     width: 480px;
-    height: 399px;
+    height: 520px;
     position: relative;
 }
 
@@ -1186,9 +1185,9 @@ a.icon:focus {
     width: 314px;
     height: 33px;
     font-size: 28px;
-    top: 127px;
+    top: -50px;
     font-weight: 700;
-    left: 300px;
+    left: 110px;
 }
 
 .regular-customers {
@@ -1213,8 +1212,8 @@ a.icon:focus {
     align-items: center;
     row-gap: 30px;
     column-gap: 25px;
-    top: 183px;
-    left: 215px;
+    top: 30px;
+    left: auto;
 }
 
 .logo-customer .logos {
@@ -1240,6 +1239,7 @@ a.icon:focus {
 .logos svg:focus {
     fill: #2196f3;
 }
+
 
 .modal {
     position: fixed;
@@ -1991,7 +1991,7 @@ em {
         display: flex;
         position: relative;
         width: 738px;
-        height: 277px;
+        height: 397px;
 
     }
 
@@ -2000,9 +2000,10 @@ em {
         position: absolute;
         display: flex;
         width: 738px;
-        height: 277px;
+        height: 235px;
         border-radius: 4px;
         right: 200px;
+        top: 102px;
     }
 
     .fourth-part {
@@ -2012,8 +2013,8 @@ em {
         width: 314px;
         height: 33px;
         font-size: 28px;
-        top: -40px;
-        left: 465px;
+        top: -25px;
+        left: 250px;
         font-weight: 700;
     }
 
@@ -2025,6 +2026,7 @@ em {
         align-items: center;
         top: 30px;
         column-gap: 30px;
+        left: auto;
     }
 
     .logo-customer .logos {
@@ -2053,7 +2055,7 @@ em {
         height: 464px;
         justify-content: space-between;
         position: relative;
-        margin-top: 250px;
+        margin-top: 0;
     }
 
     .find-us {
@@ -2653,7 +2655,7 @@ em {
 
     .last-section {
         display: flex;
-        width: 100%;
+        width: 1170px;
         height: 372px;
         position: relative;
     }
@@ -2667,7 +2669,7 @@ em {
         height: 42px;
         font-size: 36px;
         top: 0;
-        left: 422px;
+        left: 640px;
         font-weight: 700;
     }
 
@@ -2690,8 +2692,8 @@ em {
         justify-content: center;
         align-items: center;
         top: 92px;
-        left: -1px;
         column-gap: 30px;
+        left: 215px;
     }
 
     .logo-customer .logos {
@@ -3287,7 +3289,7 @@ em {
     column-gap: 30px;
     flex-wrap: wrap;
     box-sizing: content-box;
-    width: 768px;
+    width: 742px;
     margin-top: 50px;
 }
 
@@ -3297,13 +3299,13 @@ em {
     justify-content: space-between;
     flex-direction: column;
     width: 354px;
-    height: 440px;
+    height: 404px;
     margin-bottom: 30px;
     border-bottom: 1px solid #eee;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     background-color: #fff;
-    
+    flex-grow: 1;
 }
 
 .web,
@@ -3322,7 +3324,6 @@ em {
     position: absolute;
     align-items: center;
     flex-wrap: wrap;
-    left: 7px;
     width: 354px;
     height: 298px;
     background: rgba(33, 150, 243, 0.9);
@@ -3340,6 +3341,7 @@ em {
 .limited-edition,
 .project-lab,
 .growing-bussines {
+    width: 354px;
     position: relative;
     overflow: hidden; 
    
@@ -3347,11 +3349,9 @@ em {
 
 .growing-bussines{
     align-self: self-start;
-    margin-left: 7px;
+   
 }
-.growing-bussines>.overlay {
-    left: 0;
-}
+
 .tecno:hover .overlay,
 .basketball:hover .overlay,
 .sea-food:hover .overlay,
@@ -3534,6 +3534,15 @@ em {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+ .under-page-container {
+        display: flex;
+        background-color: #2f303a;
+        width: 768px;
+        height: 464px;
+        justify-content: space-between;
+        position: relative;
+       margin-top: 0;
+    }
 
 
 }
@@ -3708,7 +3717,7 @@ em {
     box-sizing: content-box;
     justify-content: space-between;
     flex-direction: column;
-    flex-basis: calc((100%-30px) / 3);
+    width: 370px;
     height: 404px;
     margin-bottom: 30px;
     border-bottom: 1px solid #eee;
@@ -3746,6 +3755,7 @@ em {
 .limited-edition,
 .project-lab,
 .growing-bussines {
+    width: 370px;
     position: relative;
     overflow: hidden;
 }
