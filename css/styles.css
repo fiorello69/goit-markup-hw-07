@@ -523,7 +523,10 @@ a.footer-icon {
 .design,
 .apps,
 .marketing {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
     height: auto;
 }
 
@@ -531,7 +534,8 @@ a.footer-icon {
     display: flex;
     align-items: center;
     position: absolute;
-    left: auto;
+    left: 15px;
+    right: auto;
     width: 450px;
     height: 298px;
     background: rgba(33, 150, 243, 0.9);
@@ -3298,7 +3302,7 @@ em {
 .design,
 .apps,
 .marketing {
-    width: 354px;
+    width: 370px;
     height: 294px;
 }
 
@@ -3326,9 +3330,11 @@ em {
 .project-lab,
 .growing-bussines {
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
 }
-
+.growing-bussines{
+    align-self: self-start;
+}
 .tecno:hover .overlay,
 .basketball:hover .overlay,
 .sea-food:hover .overlay,
@@ -3697,8 +3703,8 @@ em {
 .design,
 .apps,
 .marketing {
-    width: 100%;
-    height: auto;
+    width: 370px;
+    height: 294px;
 }
 
 .overlay {
