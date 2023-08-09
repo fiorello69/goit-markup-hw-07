@@ -625,7 +625,7 @@ a.footer-icon {
     height: 604px;
     justify-content: space-between;
     position: relative;
-    margin-top: 120px;
+    margin-top: 250px;
 }
 
 .under-page-menu {
@@ -979,7 +979,7 @@ a.footer-icon {
     flex-direction: column;
     align-content: center;
     width: 480px;
-    height: 2578px;
+    height: 2761px;
     background-color: #f5f4fa;
 }
 
@@ -992,12 +992,13 @@ a.footer-icon {
     height: 33px;
     font-size: 28px;
     font-weight: 700;
-    padding: 60px 176px 30px;
+    padding: 60px 176px 0;
 
 }
 
 .team-composition {
-    width: 100%;
+    width: 480px;
+    height: 2761px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -1005,7 +1006,7 @@ a.footer-icon {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 0;
 }
 
 .individual-cards {
@@ -1198,7 +1199,8 @@ a.icon:focus {
     border-radius: 4px;
     position: relative;
     top: 94px;
-    right: 200px;
+    right: 15px;
+    left: 15px;
 }
 
 .logo-customer {
@@ -1210,7 +1212,7 @@ a.icon:focus {
     justify-content: center;
     align-items: center;
     row-gap: 30px;
-    column-gap: 30px;
+    column-gap: 25px;
     top: 183px;
     left: 215px;
 }
@@ -1864,19 +1866,21 @@ em {
         height: 33px;
         font-size: 28px;
         font-weight: 700;
-        padding: 60px 320px 30px;
+        padding: 60px 320px 0;
 
     }
 
     .team-composition {
-        width: 100%;
+        width: 768px;
+        height: 1285px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 30px;
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
+        align-content: center;
+        
+    
     }
 
     .individual-cards {
@@ -2049,7 +2053,7 @@ em {
         height: 464px;
         justify-content: space-between;
         position: relative;
-        margin-top: 120px;
+        margin-top: 250px;
     }
 
     .find-us {
@@ -2680,6 +2684,7 @@ em {
 
     .logo-customer {
         display: flex;
+        flex-wrap: nowrap;
         width: 1170px;
         position: absolute;
         justify-content: center;
@@ -3298,7 +3303,7 @@ em {
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     background-color: #fff;
-    flex-grow: 1;
+    
 }
 
 .web,
