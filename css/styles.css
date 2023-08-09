@@ -502,6 +502,7 @@ a.footer-icon {
     box-sizing: content-box;
     width: 480px;
     margin-top: 50px;
+    margin-bottom: -185px;
 }
 
 .image-container {
@@ -595,6 +596,8 @@ a.footer-icon {
 .aditional-info {
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: 30px;
 }
 
 .title {
@@ -622,7 +625,7 @@ a.footer-icon {
     height: 604px;
     justify-content: space-between;
     position: relative;
-    margin-top: 275px;
+    margin-top: 120px;
 }
 
 .under-page-menu {
@@ -3306,6 +3309,7 @@ em {
     height: 294px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .overlay {
@@ -3338,6 +3342,10 @@ em {
 
 .growing-bussines{
     align-self: self-start;
+    margin-left: 7px;
+}
+.growing-bussines>.overlay {
+    left: 0;
 }
 .tecno:hover .overlay,
 .basketball:hover .overlay,
@@ -3378,6 +3386,8 @@ em {
 .aditional-info {
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: 30px;
 }
 
 .title {
@@ -3799,7 +3809,7 @@ em {
         height: 251px;
         justify-content: space-between;
         position: relative;
-        margin: 0;
+        margin-top: 120px;
     }
 
     .under-page-menu {
