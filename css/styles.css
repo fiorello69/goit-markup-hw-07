@@ -2720,7 +2720,7 @@ em {
         height: 251px;
         justify-content: space-between;
         position: relative;
-        margin: 0;
+        
     }
 
     .under-page-menu {
@@ -3562,7 +3562,7 @@ em {
     align-items: center;
     justify-content: space-between;
     padding-top: 94px;
-    padding-bottom: 94px;
+    margin-bottom: 157px;
 }
 
 .button-container {
@@ -3809,7 +3809,7 @@ em {
         height: 251px;
         justify-content: space-between;
         position: relative;
-        margin-top: 120px;
+        margin-top: 0;
     }
 
     .under-page-menu {
