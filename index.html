@@ -26,10 +26,16 @@
         <img src="images/WebStudio.svg" alt="WebStudio" />
       </a>
       <button class="menu-button js-open-menu">
-        <svg  id="icon-hamburger-menu-svgrepo-com" viewBox="0 0 40 40">
-<path  d="M34.583 11.667c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"></path>
-<path  d="M34.583 20c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"></path>
-<path  d="M34.583 28.333c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"></path>
+        <svg id="icon-hamburger-menu-svgrepo-com" viewBox="0 0 40 40">
+          <path
+            d="M34.583 11.667c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"
+          ></path>
+          <path
+            d="M34.583 20c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"
+          ></path>
+          <path
+            d="M34.583 28.333c0 0.69-0.56 1.25-1.25 1.25h-26.667c-0.69 0-1.25-0.56-1.25-1.25s0.56-1.25 1.25-1.25h26.667c0.69 0 1.25 0.56 1.25 1.25z"
+          ></path>
         </svg>
       </button>
       <nav class="main-navigation">
@@ -187,12 +193,34 @@
         <ul class="team-composition">
           <li class="member-one">
             <figure class="individual-cards">
-               <picture>
-          <source media="(min-width:428px) and (max-width:767px)" srcset="images/productdesigner-m.png">
-          <source media="(min-width:768px) and (max-width:1157)" srcset="images/productdesigner-t.png">
-          <source media="(min-width:1158px)" srcset="images/productdesigner-d.png ">
-          <img src="images/productdesigner.jpg" alt="team member Christopher Walker" style="width:auto;">
-        </picture>
+              <picture>
+                <source
+                  media="(min-width:428px) and (max-width:767px)"
+                  srcset="
+                    images/productdesigner-m.png,
+                    images/productdesigner-m-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:768px) and (max-width:1157)"
+                  srcset="
+                    images/productdesigner-t.png,
+                    images/productdesigner-t-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:1158px)"
+                  srcset="
+                    images/productdesigner-d.png,
+                    productdesigner-d-2x.jpg
+                  "
+                />
+                <img
+                  src="images/productdesigner.jpg"
+                  alt="team member Christopher Walker"
+                  style="width: auto"
+                />
+              </picture>
               <figcaption class="cards">
                 <h3 class="member-product-designer">Christopher Walker</h3>
                 <p class="member-position">Product Designer</p>
@@ -239,11 +267,34 @@
           </li>
           <li class="member-two">
             <figure class="individual-cards">
-               <picture>
-          <source media="(min-width:428px) and (max-width:767px)" srcset="images/frontenddeveloper-m.png">
-          <source media="(min-width:768px) and (max-width:1157)" srcset="images/frontenddeveloper-t.png">
-          <source media="(min-width:1158px)" srcset="images/frontenddeveloper-d.png ">
-          <img src="images/frontenddeveloper.jpg" alt="team member Kylie Evans" style="width:auto;">
+              <picture>
+                <source
+                  media="(min-width:428px) and (max-width:767px)"
+                  srcset="
+                    images/frontenddeveloper-m.png,
+                    frontenddeveloper-m-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:768px) and (max-width:1157)"
+                  srcset="
+                    images/frontenddeveloper-t.png,
+                    frontenddeveloper-t-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:1158px)"
+                  srcset="
+                    images/frontenddeveloper-d.png,
+                    frontenddeveloper-d-2x.jpg
+                  "
+                />
+                <img
+                  src="images/frontenddeveloper.jpg"
+                  alt="team member Kylie Evans"
+                  style="width: auto"
+                />
+              </picture>
               <figcaption class="cards">
                 <h3 class="member-frontend-developer">Kylie Evans</h3>
                 <p class="member-position">Frontend Developer</p>
@@ -291,10 +342,24 @@
           <li class="member-three">
             <figure class="individual-cards">
               <picture>
-          <source media="(min-width:428px) and (max-width:767px)" srcset="images/marketing-m.png">
-          <source media="(min-width:768px) and (max-width:1157)" srcset="images/marketing-t.png">
-          <source media="(min-width:1158px)" srcset="images/marketing-d.png ">
-          <img src="images/marketing-450.svg" alt="team member Ryan Harris" style="width: auto;"> 
+                <source
+                  media="(min-width:428px) and (max-width:767px)"
+                  srcset="images/marketing-m.png, marketing-m-2x.jpg"
+                />
+                <source
+                  media="(min-width:768px) and (max-width:1157)"
+                  srcset="images/marketing-t.png, marketing-t-2x.jpg"
+                />
+                <source
+                  media="(min-width:1158px)"
+                  srcset="images/marketing-d.png, marketing-d-2x.jpg"
+                />
+                <img
+                  src="images/marketing-450.svg"
+                  alt="team member Ryan Harris"
+                  style="width: auto"
+                />
+              </picture>
               <figcaption class="cards">
                 <h3 class="member-marketing">Ryan Harris</h3>
                 <p class="member-position">Marketing</p>
@@ -341,10 +406,25 @@
           </li>
           <li class="member-four">
             <figure class="individual-cards">
-              <source media="(min-width:428px) and (max-width:767px)" srcset="images/uidesigner-m.png">
-          <source media="(min-width:768px) and (max-width:1157)" srcset="images/uidesigner-t.png">
-          <source media="(min-width:1158px)" srcset="images/uidesigner-d.png ">
-          <img src="images/Uidesigner-450.svg" alt="team member Kylie Evans" style="width:auto;">
+              <picture>
+                <source
+                  media="(min-width:428px) and (max-width:767px)"
+                  srcset="images/uidesigner-m.png, uidesigner-m-2x.jpg"
+                />
+                <source
+                  media="(min-width:768px) and (max-width:1157)"
+                  srcset="images/uidesigner-t.png, uidesigner-t-2x.jpg"
+                />
+                <source
+                  media="(min-width:1158px)"
+                  srcset="images/uidesigner-d.png, uidesigner-d-2x.jpg"
+                />
+                <img
+                  src="images/Uidesigner-450.svg"
+                  alt="team member Kylie Evans"
+                  style="width: auto"
+                />
+              </picture>
               <figcaption class="cards">
                 <h3 class="member-ui-designer">Tyler Moore</h3>
                 <p class="member-position">UI Designer</p>
@@ -533,7 +613,7 @@
         </form>
       </div>
     </footer>
-    
+
     <div class="modal is-hidden" data-modal>
       <div class="modal-content">
         <button class="close-button" data-modal-close>&#x2715;</button>
@@ -668,12 +748,14 @@
           ></path>
         </svg>
       </button>
-         <nav class="backdrop-navigation">
+      <nav class="backdrop-navigation">
         <ul class="backdrop-links">
           <li class="backdrop-page-one">
             <a href="./index.html" aria-current="page">Studio</a>
           </li>
-          <li class="backdrop-page-two"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="backdrop-page-two">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
           <li class="backdrop-page-three"><a href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
@@ -681,35 +763,24 @@
         <a href="tel:+1212-772-4150"> 1 212-772-4150</a>
       </div>
       <div class="backdrop-contacts-email">
-          <a href="mailto:info@devstudio.com">@devstudio.com</a>
+        <a href="mailto:info@devstudio.com">@devstudio.com</a>
       </div>
       <ul class="backdrop-social">
-       <li class="backdrop-social-istagram">
-        <a
-        href="https://www.instagram.com/"
-        aria-label="Instagram"
-        >Instagram</a>
-       </li>
-       <li class="backdrop-social-twitter">
-         <a
-        href="https://www.twitter.com/"
-        aria-label="Twitter"
-        >Twitter</a>
-       </li>
-       <li class="backdrop-social-facebook">
-       <a
-        href="https://www.facebook.com/"
-        aria-label="Facebook"
-        >Facebook</a>
-       </li>
-       <li class="backdrop-social-twitter">
-        <a
-        href="https://www.linkedin.com/"
-        aria-label="Linkedin"
-      >Linkedin</a>
-       </li>
+        <li class="backdrop-social-istagram">
+          <a href="https://www.instagram.com/" aria-label="Instagram"
+            >Instagram</a
+          >
+        </li>
+        <li class="backdrop-social-twitter">
+          <a href="https://www.twitter.com/" aria-label="Twitter">Twitter</a>
+        </li>
+        <li class="backdrop-social-facebook">
+          <a href="https://www.facebook.com/" aria-label="Facebook">Facebook</a>
+        </li>
+        <li class="backdrop-social-twitter">
+          <a href="https://www.linkedin.com/" aria-label="Linkedin">Linkedin</a>
+        </li>
       </ul>
-    </div>
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
