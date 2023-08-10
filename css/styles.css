@@ -1995,8 +1995,8 @@ em {
     .last-section {
         display: flex;
         position: relative;
-        width: 738px;
-        height: 397px;
+        width: 768px;
+        height: 277px;
 
     }
 
@@ -2018,7 +2018,7 @@ em {
         width: 314px;
         height: 33px;
         font-size: 28px;
-        top: -25px;
+        top: -50px;
         left: 250px;
         font-weight: 700;
     }
@@ -2029,7 +2029,7 @@ em {
         justify-content: center;
         width: 738px;
         align-items: center;
-        top: 30px;
+        top: 5px;
         column-gap: 30px;
         left: auto;
     }
@@ -2060,7 +2060,7 @@ em {
         height: 464px;
         justify-content: space-between;
         position: relative;
-        margin-top: 60px;
+        top: 50px;
     }
 
     .find-us {
@@ -3285,7 +3285,7 @@ em {
     align-items: center;
     justify-content: space-between;
     padding-top: 94px;
-    padding-bottom: 94px;
+   margin-bottom: 0;
 }
 
 .content-container {
@@ -3540,15 +3540,7 @@ em {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
- .under-page-container {
-        display: flex;
-        background-color: #2f303a;
-        width: 768px;
-        height: 464px;
-        justify-content: space-between;
-        position: relative;
-        margin-top: 120px;
-    }
+ 
 
 
 }
