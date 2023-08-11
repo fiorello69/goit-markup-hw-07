@@ -1675,8 +1675,10 @@ em {
 
     a[aria-current="page"] {
         text-decoration: underline;
+        text-underline-offset: 15px;
         text-decoration-thickness: 5px;
         text-underline-position: under;
+        color: #2196F3;
     }
 
     .page-three {
