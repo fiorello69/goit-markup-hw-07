@@ -1215,6 +1215,7 @@ a.icon:focus {
     justify-content: center;
     align-items: center;
     row-gap: 30px;
+    column-gap: 26px;
     top: 30px;
 }
 
@@ -2027,7 +2028,7 @@ em {
         width: 738px;
         align-items: center;
         top: 5px;
-        column-gap: 30px;
+        column-gap: 27px;
         left: auto;
     }
 
@@ -2662,18 +2663,20 @@ em {
         width: 1170px;
         height: 372px;
         position: relative;
+        left: 215px;
     }
 
     .fourth-part {
         display: flex;
         flex-direction: row;
         position: absolute;
+        justify-content: center;
         box-sizing: content-box;
         width: 328px;
         height: 42px;
         font-size: 36px;
         top: 0;
-        left: 640px;
+        left: auto;
         font-weight: 700;
     }
 
@@ -2693,11 +2696,9 @@ em {
         flex-wrap: nowrap;
         width: 1170px;
         position: absolute;
-        justify-content: center;
         align-items: center;
         top: 92px;
         column-gap: 30px;
-        left: 215px;
     }
 
     .logo-customer .logos {
