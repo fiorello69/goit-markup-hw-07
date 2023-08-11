@@ -3982,7 +3982,7 @@ em {
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        left: 13px;
+        left: 0;
     }
 
     .email-input {
