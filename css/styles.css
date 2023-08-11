@@ -2681,22 +2681,23 @@ em {
     .regular-customers {
         flex-direction: column;
         display: flex;
-        width: 1170px;
+        width: 100%;
         height: 184px;
         border-radius: 4px;
         position: absolute;
         top: 94px;
-        right: 215px;
+        left: 0;
     }
 
     .logo-customer {
         display: flex;
+        justify-content: flex-end;
         flex-wrap: nowrap;
-        width: 1170px;
+        width: 100%;
         position: absolute;
         align-items: center;
         top: 92px;
-        column-gap: 30px;
+        column-gap: 28px;
     }
 
     .logo-customer .logos {
